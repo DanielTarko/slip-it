@@ -6,7 +6,7 @@ function Retailer() {
 
   return (
     <div className="App">
-      <p>page not found</p>
+      <p>the page not found</p>
     </div>
   );
 }
