@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/slip-it/static/css/main.539a3aae.css",
+    "main.js": "/slip-it/static/js/main.6377d2a1.js",
+    "static/js/453.f839c941.chunk.js": "/slip-it/static/js/453.f839c941.chunk.js",
+    "index.html": "/slip-it/index.html",
+    "main.539a3aae.css.map": "/slip-it/static/css/main.539a3aae.css.map",
+    "main.6377d2a1.js.map": "/slip-it/static/js/main.6377d2a1.js.map",
+    "453.f839c941.chunk.js.map": "/slip-it/static/js/453.f839c941.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.539a3aae.css",
+    "static/js/main.6377d2a1.js"
+  ]
+}
