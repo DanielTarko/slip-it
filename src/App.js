@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 import Retailer from './pages/Retailer';
 import NotFoundPage from './pages/NotFoundPage';
 import LogInPage from './pages/LogInPage';
 import CreateAccountPage from './pages/CreateAccountPage';
 
+
 function App() {
+
   return (
     <Router>
       <Routes>
