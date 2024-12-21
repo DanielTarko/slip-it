@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Slip It",
+  "name": "Your digital reciept wallet",
   "icons": [
     {
-      "src": "receipt.png",
-      "type": "image/png",
+      "src": "receipt.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     }
   ],
