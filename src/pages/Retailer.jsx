@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchableContent from '../components/seachable-content';
-
+import { CircleUserRound, Settings } from 'lucide-react';
 
 function Retailer() {
   const [page, setPage] = useState('users');
@@ -55,16 +55,16 @@ function Retailer() {
 
   return (
     <div className="text-center">
-      <div className="bg-slate-100	p-3">
-        <button 
-        onClick={() => setPage('users')} 
-        className={`p-3 hover:font-semibold ${page === "users" ? "underline" : ""}`}>
-          Users
-        </button>
-        <button onClick={() => setPage('permissions')} className={`p-3 hover:font-semibold ${page === "permissions" ? "underline" : ""}`}>Permissions</button>
-        <button onClick={() => setPage('stores')} className={`p-3 hover:font-semibold ${page === "stores" ? "underline" : ""}`}>Stores</button>
-        <button onClick={() => setPage('apis')} className={`p-3 hover:font-semibold ${page === "apis" ? "underline" : ""}`}>APIs</button>
-        <button onClick={() => setPage('slips')} className={`p-3 hover:font-semibold ${page === "slips" ? "underline" : ""}`}>Slips</button>
+      <div className="bg-slate-100	p-3 flex">
+        <CircleUserRound className={"w-6 h-6 my-auto mx-6 cursor-pointer"}/>
+        <div className={"mx-auto"}>
+          <button onClick={() => setPage('users')} className={`p-3 hover:font-semibold ${page === "users" ? "underline" : ""}`}> Users </button>
+          <button onClick={() => setPage('permissions')} className={`p-3 hover:font-semibold ${page === "permissions" ? "underline" : ""}`}>Permissions</button>
+          <button onClick={() => setPage('stores')} className={`p-3 hover:font-semibold ${page === "stores" ? "underline" : ""}`}>Stores</button>
+          <button onClick={() => setPage('apis')} className={`p-3 hover:font-semibold ${page === "apis" ? "underline" : ""}`}>APIs</button>
+          <button onClick={() => setPage('slips')} className={`p-3 hover:font-semibold ${page === "slips" ? "underline" : ""}`}>Slips</button>
+        </div>
+        <Settings className={"w-6 h-6 my-auto mx-6 cursor-pointer"}/>
 
       </div>
       <div className="max-w-7xl mx-auto">
